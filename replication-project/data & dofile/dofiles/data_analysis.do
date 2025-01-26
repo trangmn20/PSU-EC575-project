@@ -47,7 +47,7 @@ replace bcohort = 1 if inrange(birthyr, 1965, 1967)
 replace bcohort = 2 if inrange(birthyr, 1968, 1970)
 replace bcohort = 3 if inrange(birthyr, 1971, 1973)
 
-// Label the birth cohorts
+// Label the birth cohorts (P, C, T)
 label define bcohort_lbl 1 "1965-1967 (P)"
 label define bcohort_lbl 2 "1968-1970 (C)", add
 label define bcohort_lbl 3 "1971-1973 (T)", add
